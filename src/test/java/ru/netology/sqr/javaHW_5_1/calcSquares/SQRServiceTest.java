@@ -9,8 +9,8 @@ public class SQRServiceTest {
     @Test
     public void calcSqrQuantity() {           //int expected, int actual) {
         SQRService service = new SQRService();
-        int expected = 0;
-        int actual = service.calcSQRService(8, 100);
+        int expected = 2;
+        int actual = service.calcSQRService(9, 100);
 
         Assertions.assertEquals(expected, actual);
     }

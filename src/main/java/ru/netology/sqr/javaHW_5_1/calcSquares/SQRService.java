@@ -7,8 +7,7 @@ public class SQRService {
             if (i * i >= min & i * i <= max) {
                 sqrQuantity = sqrQuantity + 1;
             }
-            return (sqrQuantity);
         }
-        return -1;
+        return (sqrQuantity);
     }
 }
